@@ -6,6 +6,9 @@ import 기사콤포넌트 from "./components/기사리스트";
 import "./App.css";
 
 const App = () => {
+
+  const [상태 , set상태] = useState
+
   const 목표배열 = [
     { id: "1", text: "12월까지 앱하나 만들기" },
     { id: "2", text: "백마 친구 사귀기 !!!!" },
@@ -29,13 +32,32 @@ const App = () => {
     },
   ];
 
+
+  //Modle
+  const [상태 , set상태] = useState("soso");
+
+  //Controller
+  fucntion 빡치게만들기(){
+    set상태("빡침")
+  }
+
+  //View
   return (
+   
+
+
     <div className="course-goals">
       <h2>목표 !!</h2>
       <목표콤포넌트 목표들={목표배열} />
       <기사콤포넌트 기사데이터베이스={기사데이터베이스} />
+      {상태임}
     </div>
-  );
+  )
 };
 
 export default App;
+ /* 
+      배터리상태 ="꺼지기10분" 
+      ? <돈냈음/>
+      : <로그인안한사람이 보는UI/>
+    */

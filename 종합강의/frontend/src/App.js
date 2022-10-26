@@ -14,6 +14,8 @@ function App() {
     연도옮겨(소현컴응답.data.years);
   });
 
+  //이미지도 두어서 돌아가게 하면 꿀잼일듯
+
   return (
     <div className="App">
       <header className="App-header">

@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import './GoalList.css';
+import "./GoalList.css";
 
-const GoalList = props => {
+const 목표콤포넌트 = ({ 목표들 }) => {
   return (
     <ul className="goal-list">
-      {props.goals.map(goal => {
+      {목표들.map((goal) => {
         return <li key={goal.id}>{goal.text}</li>;
       })}
     </ul>
   );
 };
 
-export default GoalList;
+export default 목표콤포넌트;

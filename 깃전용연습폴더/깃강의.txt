@@ -1,0 +1,14 @@
+# 별명 명칭 정해서 origin ,안오리진 구분
+
+# 머지 [ ]
+  => 깃허브에서 주로 한다.
+  => 메인은 접근 못하게 하기
+
+# 명령어 정리
+  add
+  commit
+  clone
+  branch
+  checkout
+  pull
+  push 등등등
